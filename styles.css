@@ -1,0 +1,178 @@
+/* the styles.css conatins only the necessary stuff to style the webpage and make it  understandable*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+.content {
+  display: flex;
+  height: 500px;
+}
+.content-left {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+.content-left h1 {
+  padding-bottom: 10px;
+  font-style: italic;
+  color: black;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.content-left p {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.content-right img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 511px;
+  height: 402px;
+  border-radius: 20px;
+  margin-top: 80px;
+}
+.HomeAllArticles {
+  height: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.homeArticle img {
+  width: 302px;
+  height: 302px;
+  margin-right: 20px;
+}
+.homeArticle-content {
+  font-size: 20px;
+  flex: 1;
+  text-align: center;
+}
+.homeArticle-content h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.homeArticle {
+  padding: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgb(230, 219, 241);
+  display: flex;
+  align-items: center;
+}
+.home2Article {
+  padding: 30px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgb(247, 247, 181);
+  display: flex;
+  align-items: center;
+}
+.home2Article img {
+  width: 302px;
+  height: 302px;
+  margin-right: 20px;
+}
+.home2Article-content {
+  font-size: 20px;
+  flex: 1;
+  text-align: center;
+}
+.home2Article-content h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.home2Article-content span {
+  padding: 10px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+.homeArticle-content span {
+  padding: 10px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+.home3Article {
+  padding: 30px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgb(172, 224, 172);
+  display: flex;
+  align-items: center;
+}
+.home3Article img {
+  width: 302px;
+  height: 302px;
+  margin-right: 20px;
+}
+.home3Article-content {
+  font-size: 20px;
+  flex: 1;
+  text-align: center;
+}
+.home3Article-content h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.home3Article-content span {
+  padding: 10px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.footer {
+  color: black;
+  opacity: 0.5;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 55px;
+}
+
+.nav-left ul {
+  /*turning it into a flexbox*/
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+}
+.nav-left ul li:hover {
+  color: white;
+  background-color: burlywood;
+  text-decoration: underline;
+}
+.nav-left ul li a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-left {
+  font-weight: bold;
+  font-size: 30px;
+}
+body {
+  /* You can set the background image using the URL of the image file */
+  background-image: url("bgn.jpg");
+
+  /* You can also specify additional properties to control how the background image is displayed */
+  background-size: cover; /* Makes the image cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image horizontally and vertically */
+  /* You can set a background color as a fallback if the image fails to load or isn't available */
+  background-color: #f0f0f0;
+}

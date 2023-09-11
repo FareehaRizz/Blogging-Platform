@@ -1,0 +1,11 @@
+.content {
+  display: block;
+  height: 500px;
+}
+.contact-content {
+  margin-top: 32px;
+  height: 395px;
+  height: 80vh;
+  padding: 9px;
+  position: relative;
+}
